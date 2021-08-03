@@ -106,14 +106,10 @@ li.pane:only-child {
   color: hsl(0, 0%, 20%);
 }
 
-a:link {
+a {
   color: white;
   font-weight: bolder;
   text-decoration: none;
-}
-
-a:visited {
-  color: hsl(0, 0%, 90%);
 }
 
 .time-stamp a:visited {
@@ -160,16 +156,15 @@ button {
   color: white;
 }
 
-footer {
+.important-info {
   order: 1;
   max-width: 800px;
   min-width: 10em;
+  margin-bottom: 1rem;
+  font-family: Ubuntu, Futura, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
 }
-
-footer > div {
-  margin-bottom: 0.5em;
-}
-
 
 @media all and (max-height: 568px) {
   body {
