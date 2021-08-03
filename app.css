@@ -1,15 +1,24 @@
 body {
   font-family: Georgia, serif;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(to right, hsla(146.2, 76.6%, 51.4%, 0.05) 0%, hsla(47.8, 85.1%, 50%, 0.04) 30%, hsla(11.1, 70.9%, 59.6%, 0.16) 70%, hsla(216.4, 49.8%, 50%, 0.02) 100%), linear-gradient(to bottom, hsla(0, 0%, 48.2%, 0.94) 0%, hsla(0, 0%, 0%, 0.995) 95%, hsl(0, 0%, 0%) 100%);
   color: white;
+  margin-left: 2em;
+  margin-right: 1em;
 }
 
 h1,h2,.time-stamp {
   font-family: Ubuntu, Futura, Helvetica, sans-serif;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
 
 section {
   display: flex;
@@ -23,9 +32,18 @@ ul {
 }
 
 .media {
+  width: 30rem;
+  max-width: 800px;
+  min-width: 20rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  order: 2;
+}
+
+.media-list {
+  margin-top: 0;
+  margin-right: 1rem;
 }
 
 li.pane {
@@ -130,6 +148,7 @@ button {
 .previous-indexes {
   margin-bottom: 2em;
   font-size: 2em;
+  order: 3;
 }
 
 .previous-indexes a:link {
@@ -142,16 +161,21 @@ button {
 }
 
 footer {
+  order: 1;
   max-width: 800px;
+  min-width: 10em;
 }
 
 footer > div {
   margin-bottom: 0.5em;
-  text-align: center;
 }
 
 
 @media all and (max-height: 568px) {
+  body {
+   font-size: 18px;
+  }
+
   .media {
     max-width: 90%;
   }
