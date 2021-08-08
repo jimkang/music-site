@@ -10,7 +10,7 @@ sync:
 	rsync -a $(HOMEDIR) $(USER)@$(SERVER):/opt/ --exclude node_modules/
 	$(SSHCMD) "cd $(APPDIR) && npm install"
 
-pushall: sync push-css
+pushall: sync push-css run-remote
 	git push origin main
 
 run-remote:
