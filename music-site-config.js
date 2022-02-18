@@ -21,5 +21,6 @@ module.exports = {
       feed_url: "https://jimkang.com/music/rss/index.rss",
       site_url: "https://jimkang.com/music/",
     },
+    rssPostingDelay: 500
   },
 };
