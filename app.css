@@ -155,6 +155,11 @@ button {
   color: white;
 }
 
+
+.previous-indexes:before {
+  content: "Previous pages: "
+}
+
 h1 a {
   text-decoration: none;
 }
