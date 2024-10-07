@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.6",
-    "static-web-pick": "^1.1.1"
+    "static-web-pick": "^1.1.2"
   }
 }
