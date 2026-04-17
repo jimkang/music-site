@@ -18,7 +18,7 @@ module.exports = {
     archiveBaseURL: "https://jimkang.com/music",
     mediaDir: "https://smidgeo.com/notes/deathmtn/media",
     rssFeedOpts: {
-      feed_url: "https://jimkang.com/music/rss/index.rss",
+      feed_url: "https://feeds.jimkang.com/music/rss/index.rss",
       site_url: "https://jimkang.com/music/",
     },
     rssPostingDelay: 500
