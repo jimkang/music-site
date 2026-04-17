@@ -10,7 +10,7 @@ module.exports = {
     fileAbstractionType: "fs",
     footerHTML: `<div class="important-info">
     <a href="https://jimkang.bandcamp.com/">Bandcamp</a> |
-    <a href="https://jimkang.com/music/rss/index.rss">RSS feed</a> |
+    <a href="https://feeds.jimkang.com/music/rss/index.rss">RSS feed</a> |
     <a href="https://jimkang.com">jimkang.com</a>
     </div>
     `,
