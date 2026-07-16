@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.6",
-    "static-web-pick": "^1.1.2"
+    "static-web-pick": "git+https://code.jimkang.com/jimkang/static-web-pick.git"
   }
 }
