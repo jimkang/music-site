@@ -15,7 +15,7 @@ pushall: sync push-css run-remote
 
 run-remote:
 	$(SSHCMD) "rm -f $(WEBDIR)/meta/*"
-	$(SSHCMD) "cd $(APPDIR) && $(swpick) $(APPDIR)/music-site-config.js $(METADIR) $(APPDIR)/ids.json" deathmtn piece
+	$(SSHCMD) "cd $(APPDIR) && ./build-site.sh"
 
 set-up-web-dir:
 	ssh $(USER)@$(SERVER) "mkdir -p $(WEBDIR)"
