@@ -74,6 +74,12 @@ li.pane:only-child {
   border-radius: 4px;
 }
 
+.pane ul {
+  list-style-type: square;
+  padding-left: 2em;
+}
+
+
 .entry-meta {
   color: hsl(341, 10%, 20%);
 }
